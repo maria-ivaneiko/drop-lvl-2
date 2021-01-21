@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <a href="#" class="logo">DROP</a>
+                <a href="#" class="header-logo">DROP</a>
                 <nav class="nav">
                     <a href="#" class="nav-link">home</a>
                     <a href="#" class="nav-link">about</a>
@@ -25,7 +27,7 @@
     </header>
     <div class="section-home">
         <div class="section-home__content">
-            <img class="section-home__icon" src="" alt="">
+            <img class="section-home__icon" src="./img/home-icon.png" alt="">
             <h1 class="section-home__title">CREATIVE PROFESSIONAL</h1>
             <p class="section-home__subtitle">Lorem ipsum dolor sit amet, natum bonorum expetendis usu ut. Eum impetus offendit disputationi eu, at vim aliquip lucilius praesent. Alia laudem antiopam te ius, sed ad munere integre, ubique facete sapientem nam ut.</p>
         </div>
@@ -33,23 +35,23 @@
     <div class="section-about">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col col-3">
                     <div class="card">
-                        <img class="card-image" src="" alt="">
+                        <img class="card-image" src="./img/about-1.png" alt="">
                         <h3 class="card-title">Valid HTML5</h3>
                         <p class="card-suptitle">Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.</p>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col col-3">
                     <div class="card">
-                        <img class="card-image" src="" alt="">
+                        <img class="card-image" src="./img/about-2.png" alt="">
                         <h3 class="card-title">Valid HTML5</h3>
                         <p class="card-suptitle">Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.</p>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col col-3">
                     <div class="card">
-                        <img class="card-image" src="" alt="">
+                        <img class="card-image" src="./img/about-3.png" alt="">
                         <h3 class="card-title">Valid HTML5</h3>
                         <p class="card-suptitle">Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.</p>
                     </div>
@@ -62,27 +64,27 @@
             <h3 class="title">our team</h3>
             <p class="subtitle">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
             <div class="row">
-                <div class="col">
+                <div class="col col-4">
                     <div class="team-item">
-                        <img class="team-item__image" src="" alt="">
+                        <img class="team-item__image" src="./img/team-1.jpg" alt="">
                         <span class="team-item__name">John Doe</span>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col col-4">
                     <div class="team-item">
-                        <img class="team-item__image" src="" alt="">
+                        <img class="team-item__image" src="./img/team-2.jpg" alt="">
                         <span class="team-item__name">Adam</span>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col col-4">
                     <div class="team-item">
-                        <img class="team-item__image" src="" alt="">
+                        <img class="team-item__image" src="./img/team-3.jpg" alt="">
                         <span class="team-item__name">Kevi Gill</span>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col col-4">
                     <div class="team-item">
-                        <img class="team-item__image" src="" alt="">
+                        <img class="team-item__image" src="./img/team-4.jpg" alt="">
                         <span class="team-item__name">Vicky Tan</span>
                     </div>
                 </div>
@@ -90,8 +92,10 @@
         </div>
     </div>
     <div class="section-quote">
-        <p class="section-quote__text">Nunc velit risus, dapibus non interdum quis, suscipit nec dolor.</p>
-        <span class="section-quote__author">SANTOSH ANAND</span>
+        <div class="section-quote__content">
+            <p class="section-quote__text">Nunc velit risus, dapibus non interdum quis, suscipit nec dolor.</p>
+            <span class="section-quote__author">SANTOSH ANAND</span>
+        </div>
     </div>
     <div class="section-portfolio">
         <h3 class="title">portfolio</h3>
@@ -104,35 +108,67 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
+                <div class="col col-3">
+                    <img src="./img/portfolio-1.jpg" alt="">
+                </div>
+                <div class="col col-3">
+                    <img src="./img/portfolio-2.jpg" alt="">
+                </div>
+                <div class="col col-3">
+                    <img src="./img/portfolio-3.jpg" alt="">
+                </div>
+                <div class="col col-3">
+                    <img src="./img/portfolio-3.jpg" alt="">
+                </div>
+                <div class="col col-3">
+                    <img src="./img/portfolio-4.jpg" alt="">
+                </div>
+                <div class="col col-3">
+                    <img src="./img/portfolio-5.jpg" alt="">
+                </div>
+                <div class="col col-3">
+                    <img src="./img/portfolio-6.jpg" alt="">
+                </div>
+                <div class="col col-3">
+                    <img src="./img/portfolio-7.jpg" alt="">
+                </div>
+                <div class="col col-3">
+                    <img src="./img/portfolio-8.jpg" alt="">
+                </div>
             </div>
         </div>
     </div>
     <div class="section-quote">
-        <p class="section-quote__text">Nunc velit risus, dapibus non interdum quis, suscipit nec dolor.</p>
-        <span class="section-quote__author">SANTOSH ANAND</span>
+        <div class="section-quote__content">
+            <p class="section-quote__text">Nunc velit risus, dapibus non interdum quis, suscipit nec dolor.</p>
+            <span class="section-quote__author">SANTOSH ANAND</span>
+        </div>
     </div>
     <div class="section-contact">
         <h3 class="title">contact us</h3>
-        <p class="subtitle">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
-        <div class="section-contact__form">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button>Send</button>
+        <p class="subtitle | mb-25">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
+        <div class="container-sm">
+            <form>
+                <div class="mb-25">
+                    <input class="form-control" type="text" placeholder="Your name"/>
+                </div>
+                <div  class="mb-25">
+                    <input class="form-control" type="email" placeholder="Your email"/>
+                </div>
+                <div class="mb-25">
+                    <input class="form-control" type="text" placeholder="Subject"/>
+                </div>
+                <div class="mb-25">
+                    <textarea class="form-control" rows="10" placeholder="Message"></textarea>
+                </div>
+                <div class="text-right">
+                    <button class="button-contact-form">Send</button>
+                </div>
+            </form>
         </div>
     </div>
     <footer class="footer">
-        <div class="footer-socials">
+        <div class="footer-socials | mb-25">
             <div class="footer-socials__item"><i class="fa fa-facebook" aria-hidden="true"></i></div>
             <div class="footer-socials__item"><i class="fa fa-twitter" aria-hidden="true"></i></div>
             <div class="footer-socials__item"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
