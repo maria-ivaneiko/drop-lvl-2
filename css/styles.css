@@ -129,7 +129,12 @@ h6 {
     text-align: center;
 }
 .card-image{
+    margin: 0 auto;
     margin-bottom: 36px;
+    width: 238px;
+    height: 238px;
+    background-color: #FABBAF;
+    border-radius: 50%;
 }
 .card-title{
     font-size: 20px;
@@ -196,6 +201,15 @@ h6 {
     padding-bottom: 17px;
     text-align: center;
 }
+.img-thumbnail{
+    display: block;
+    margin: 0 auto;
+    width: 353px;
+    height: auto;
+}
+.img-thumbnail img{
+    width: 100%;
+}
 /* Menu */
 .section-portfolio__menu{
     display: flex;
@@ -245,6 +259,11 @@ h6 {
     color: #ffffff;
     border: 1px solid #ffffff;
     background-color: transparent;
+}
+.button-contact-form:hover{
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border: 1px solid #ffffff;
 }
 /* Footer */
 .footer{
