@@ -5,7 +5,10 @@
     margin-left: -15px;
     margin-right: -15px;
 }
-
+.row_0 > [class^="col"] {
+    padding-left: 0;
+    padding-right: 0;
+}
 .col {
     flex-basis: 100%;
 
@@ -14,6 +17,7 @@
 }
 .col-3 {
     flex-basis: 33.33%;
+    max-width: 33.33%;
 }
 .col-4 {
     flex-basis: 25%;
